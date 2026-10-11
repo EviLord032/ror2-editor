@@ -389,11 +389,23 @@ function getInternalBodyName(viewableId: string): string {
     "LEMURIANBRUISER": "Logs.LemurianBruiserBody.0",
     "CLAYBRUISER": "Logs.ClayBruiserBody.0", // Clay Templar
 
+    // Hallowed Concepts (names from the game's UnlockableDefs)
+    "BIGMUSH": "Logs.BigMush.0", // Shruum
+    "LYNX2": "Logs.Lynx2Body.0", // Lynx Berserker
+    "LYNXAMBUSHER": "Logs.LynxAmbusherBody.0", // Lynx Assassin
+    "LYNXARCHER": "Logs.LynxArcherBody.0", // Lynx Deadeye
+    "LYNXTOTEM": "Logs.TotemBody.0", // Lynx Totem
+    "MIMIC": "Logs.MimicBody.0",
+    "REAPER": "Logs.ReaperBody.0", // Anima Harvester
+    "PROVIDENCE": "Logs.ProvBody.0", // Echo of Providence
+
     // Survivors
     "VOIDSURVIVOR": "VoidSurvivorBody", // Void Fiend
     "DRONETECH": "DroneTechBody", // Operator
     "FALSESON": "FalseSonBody",
     "CHEF": "ChefBody",
+    "ACOLYTE": "AcolyteBody",
+    "ENFORCER2": "Enforcer2Body", // Enforcer
 
     // Environment Fixes
     "DAMPCAVE": "dampcavesimple", // Abyssal Depths
@@ -599,6 +611,8 @@ const LOGBOOK_ALIASES: Record<string, string[]> = {
   "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/CHEF_BODY_NAME": ["/Survivors/Chef"],
   "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/DRONETECH_BODY_NAME": ["/Survivors/DroneTech"],
   "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/DRIFTER_BODY_NAME": ["/Survivors/Drifter"],
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/ACOLYTE_BODY_NAME": ["/Survivors/Acolyte"],
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENFORCER2_BODY_NAME": ["/Survivors/Enforcer2"],
 };
 
 function getLogbookAliases(mainId: string): string[] {

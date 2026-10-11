@@ -85,7 +85,7 @@ export function LogbookEditor({
 
   const handleUnlockAllClick = useCallback(() => {
     // Assume all DLCs are owned for simplicity as requested
-    const allOwned = { base: true, sotv: true, sots: true, ac: true };
+    const allOwned = { base: true, sotv: true, sots: true, ac: true, hc: true };
     let newData = unlockAllLogbook(saveData, allOwned);
 
     for (const entry of logbookEntries) {

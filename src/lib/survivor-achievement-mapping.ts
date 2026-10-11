@@ -35,6 +35,9 @@ export const SURVIVOR_LOGBOOK_TO_ACHIEVEMENT: Record<string, string> = {
 
     // AC
     "drifter": "FreeDrifter",
+
+    // HC
+    "acolyte": "ChampRushRitualCompleted",
 };
 
 /**
@@ -61,6 +64,9 @@ export const SURVIVOR_UNLOCKID_TO_ACHIEVEMENT: Record<string, string> = {
 
     // AC
     "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/DRIFTER_BODY_NAME": "FreeDrifter",
+
+    // HC
+    "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/ACOLYTE_BODY_NAME": "ChampRushRitualCompleted",
 };
 
 /**

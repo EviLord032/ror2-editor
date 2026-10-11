@@ -12,7 +12,7 @@ interface BulkDLCPromptModalProps {
     existingOwnership: Record<string, boolean>;
 }
 
-const CHECKABLE_DLCS: DLC[] = ["sotv", "sots", "ac"];
+const CHECKABLE_DLCS: DLC[] = ["sotv", "sots", "ac", "hc"];
 
 export function BulkDLCPromptModal({
     isOpen,

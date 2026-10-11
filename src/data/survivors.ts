@@ -153,6 +153,24 @@ export const survivors: Survivor[] = [
     description:
       "A unique survivor who bags enemies and provides temporary items.",
   },
+
+  // ============================================
+  // HALLOWED CONCEPTS DLC (2)
+  // ============================================
+  {
+    id: "acolyte",
+    name: "Acolyte",
+    dlc: "hc",
+    unlockAchievement: "ChampRushRitualCompleted",
+    description:
+      "A fanatical slasher who sacrifices enemies to fuel a deadly transformation.",
+  },
+  {
+    id: "enforcer",
+    name: "Enforcer",
+    dlc: "hc",
+    description: "A stalwart defender who blocks, parries and taunts enemies.",
+  },
 ];
 
 // Helper to get survivor by ID

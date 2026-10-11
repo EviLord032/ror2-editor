@@ -82,6 +82,8 @@ export function getDLCColor(
       return "secondary";
     case "ac":
       return "primary";
+    case "hc":
+      return "lunar";
     default:
       return "default";
   }
